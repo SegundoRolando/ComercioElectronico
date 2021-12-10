@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="factura_facturadetalles" directorySegmentName="seg_0" id="E3DD0FEE-FA4F-F3A4-FCF3-B9972F9EA25D">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:09:23 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<sourcePk>1081886D-1E97-0F23-71DC-9AA4F3557194</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Tienen</nameOnSource>
+<nameOnTarget>Pertenecen</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5578CD92-FA36-0CDE-2CAC-D079A276C418</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94F19C25-6278-6CAE-2269-D4944D940E1A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

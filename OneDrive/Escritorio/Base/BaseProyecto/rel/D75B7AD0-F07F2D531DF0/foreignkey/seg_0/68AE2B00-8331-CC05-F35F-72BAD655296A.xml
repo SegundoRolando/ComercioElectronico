@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68AE2B00-8331-CC05-F35F-72BAD655296A" containerWithKeyObject="563BC6E2-31A5-D5D6-5968-46EC53F903DC" localFKIndex="27D8CF8C-18E9-328B-161E-CB0EF86966C2" name="HCM_ESPECIALIDADES_HCM_MEDICOS_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>727C2575-2EF7-DD34-A178-10F14D9E00A9</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<referredTableLongName>HCM_MEDICOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>251C5769-61CC-09BB-7A93-6887C93BF078</referredTableID>
+<keyObject>3F1DEFD0-80A9-E964-610D-2E704E87CBD2</keyObject>
+<referredKeyID>3F1DEFD0-80A9-E964-610D-2E704E87CBD2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>med_cedula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

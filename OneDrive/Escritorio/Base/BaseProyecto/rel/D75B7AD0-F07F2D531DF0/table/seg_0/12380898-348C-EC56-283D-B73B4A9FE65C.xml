@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12380898-348C-EC56-283D-B73B4A9FE65C" name="HCM_FACTURAS">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>5578CD92-FA36-0CDE-2CAC-D079A276C418</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fca_codigo" id="FD63EE4B-3BB3-FD98-B81D-22BA20CC48BB">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>F2F82DEC-3DA1-C4F3-DFCC-4A430E941FB1</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fca_fechaActual" id="6C4D9DE6-53E5-7131-251B-8F74257D906B">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>C0621C12-CEED-D1C5-610F-52375230D1D2</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HCM_COLABPACMED_cpm_codigo" id="4B5B1993-C309-AD22-C35B-68637FF5B211">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>84557D0E-7808-B602-6B33-2DBD3876851D</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE7020B3-1F80-174D-FB27-AAABC864724A" referredColumn="B1F949C7-5E51-B49A-1449-F40E09A67B88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00DE0B48-D98E-A945-AFC4-3F620022EC62" name="HCM_FACTURAS_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>1081886D-1E97-0F23-71DC-9AA4F3557194</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD63EE4B-3BB3-FD98-B81D-22BA20CC48BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14FEBD9D-C810-DA1D-76CF-7D373AB462A5" name="HCM_FACTURAS_HCM_COLABPACMED_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>D5204C0F-600D-83C9-DF62-0A271102F63B</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B5B1993-C309-AD22-C35B-68637FF5B211"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

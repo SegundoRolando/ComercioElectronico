@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EEF6862-8238-9293-7D82-8555D307BEF3" name="HCM_COLABPACMED">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>E58866DF-5372-2D31-FDC5-D28A1ADB4B86</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpm_codigo" id="B1F949C7-5E51-B49A-1449-F40E09A67B88">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>0C51518C-BC01-8EA6-9A74-DF45635CD18D</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpm_fechaVisita" id="1A8BBB3D-C3FE-43FA-12C0-6AC0B96043E7">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>15E2B383-9AC7-7F98-66DB-0E6E8DEA02A9</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HCM_COLABORADORES_col_codigo" id="CE8AEA31-7752-89DE-4BB3-0B44ECC3BAA4">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>DC503EA2-D9F8-F0BC-A342-FB9988A68A33</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="821F9D66-562B-E2BF-286D-5674FB0E76EB" referredColumn="11EDFA43-6F19-4286-84CC-10C040E0544D"/>
+</associations>
+</Column>
+<Column name="HCI_PACIENTES_pac_cedula" id="B903A022-268D-64EE-5985-40C3049588A0">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>AFEC309E-EE50-DA67-5D7C-519B3878B82A</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86876BB5-25FD-ECFD-F289-3280F611443E" referredColumn="D746FCBB-A7DF-FF22-1EE9-87B9752D9FDA"/>
+</associations>
+</Column>
+<Column name="HCM_MEDICOS_med_cedula" id="86AE09D8-9428-FA5A-291C-530AB78C2FD3">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>69935E19-0033-9FDE-AD9E-AAB4B6DCCB6D</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E798114-5F31-6FB9-859A-9BB0D995C4FD" referredColumn="86E714DF-8998-A571-DC96-8D255CA67C08"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="620DBEB6-2D4B-FCD4-2943-736BA850E234" name="HCM_COLABPACMED_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>B333EF28-1634-A948-DD39-1450E1F224DC</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1F949C7-5E51-B49A-1449-F40E09A67B88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D250A0B-48BF-6282-40AB-B9A8056BD62F" name="HCM_COLABPACMED_HCM_COLABORADORES_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>7FD3EF99-D8CA-AA7C-2078-BABC45521AFA</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE8AEA31-7752-89DE-4BB3-0B44ECC3BAA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9E444D3-B386-3370-32D8-BFE1321C00CE" name="HCM_COLABPACMED_HCM_MEDICOS_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>4E851EA5-3D42-11DC-7BAC-9B531A067404</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86AE09D8-9428-FA5A-291C-530AB78C2FD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AA03F08-4860-CC1D-1424-F1792232C614" name="HCM_COLABPACMED_HCI_PACIENTES_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>A721C6E9-B4D0-57FB-D5BD-A53751557794</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B903A022-268D-64EE-5985-40C3049588A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

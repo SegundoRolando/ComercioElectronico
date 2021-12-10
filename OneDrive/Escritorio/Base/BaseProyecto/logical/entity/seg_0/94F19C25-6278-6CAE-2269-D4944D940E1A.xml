@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94F19C25-6278-6CAE-2269-D4944D940E1A" name="HCM_FACTURADETALLES">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:04:38 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fda_codigo" id="034CA439-BC1F-3A1B-EEB4-6F66170FE61C">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:05:00 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,5,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fda_Unitario" id="34D746AA-54E4-09E7-61A9-056265CF8B0A">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:05:39 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fda_numeroCitas" id="C4425FFE-8D96-0E46-DB87-6804FA9A6B72">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:06:59 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fda_iva" id="BAE8A806-E353-2902-1168-090628880AD9">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:07:27 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fda_totalPago" id="64C7630B-4E9B-6ACE-FACE-31CC94F09F64">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:07:31 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fca_codigo" id="C42C5A71-6A33-B8B9-5231-E02230097F90">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:09:23 UTC</createdTime>
+<generatorID>E3DD0FEE-FA4F-F3A4-FCF3-B9972F9EA25D</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<referedAttribute>F2F82DEC-3DA1-C4F3-DFCC-4A430E941FB1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="102C1F35-0937-824B-2F3F-E8801D862195" name="HCM_FACTURADETALLES PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:05:35 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>034CA439-BC1F-3A1B-EEB4-6F66170FE61C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="86876BB5-25FD-ECFD-F289-3280F611443E" containerWithKeyObject="6EEF6862-8238-9293-7D82-8555D307BEF3" localFKIndex="2AA03F08-4860-CC1D-1424-F1792232C614" name="HCM_COLABPACMED_HCI_PACIENTES_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>A721C6E9-B4D0-57FB-D5BD-A53751557794</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<referredTableLongName>HCI_PACIENTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D080F183-F1B2-9B4F-196B-3199B2804D7E</referredTableID>
+<keyObject>D88D85F5-2285-2229-8E8F-2F562EE68D24</keyObject>
+<referredKeyID>D88D85F5-2285-2229-8E8F-2F562EE68D24</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pac_cedula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

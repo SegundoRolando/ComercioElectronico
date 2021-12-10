@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Med_Pac_facturas" directorySegmentName="seg_0" id="D5204C0F-600D-83C9-DF62-0A271102F63B">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:02:42 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<sourcePk>B333EF28-1634-A948-DD39-1450E1F224DC</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Pertenecen</nameOnSource>
+<nameOnTarget>Tienen</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E58866DF-5372-2D31-FDC5-D28A1ADB4B86</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5578CD92-FA36-0CDE-2CAC-D079A276C418</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

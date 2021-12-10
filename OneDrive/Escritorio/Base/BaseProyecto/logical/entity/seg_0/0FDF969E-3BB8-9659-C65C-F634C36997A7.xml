@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0FDF969E-3BB8-9659-C65C-F634C36997A7" name="HCM_ESPECIALIDADES">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-09 23:40:33 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="esp_codigo" id="F51367CA-E94C-4C3B-94A2-EB3E1714D404">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-09 23:40:48 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="esp_nombre" id="775FFCC6-D221-0003-5684-5C078BC1F1D5">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-09 23:41:05 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="med_cedula" id="1602ECAD-B7D3-1A2F-7D20-D84F27C3146C">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-09 23:42:10 UTC</createdTime>
+<generatorID>727C2575-2EF7-DD34-A178-10F14D9E00A9</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<referedAttribute>AD20A5B2-513D-FA89-75A0-FCBD2D9DDCD0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78B1BC6B-A66E-07BC-862D-3420CDBE24B2" name="HCM_ESPECIALIDADES PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-09 23:41:04 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F51367CA-E94C-4C3B-94A2-EB3E1714D404</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

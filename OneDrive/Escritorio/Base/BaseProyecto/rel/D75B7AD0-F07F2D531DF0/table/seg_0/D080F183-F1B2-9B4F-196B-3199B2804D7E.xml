@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D080F183-F1B2-9B4F-196B-3199B2804D7E" name="HCI_PACIENTES">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>C4AB3A1B-32FB-BE08-B5B6-9C98B6121660</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pac_cedula" id="D746FCBB-A7DF-FF22-1EE9-87B9752D9FDA">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>894433FA-791C-3673-8C9D-6ED5964FE4B4</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pac_nombre" id="E67442E0-28A4-653A-076F-33800F317760">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>A4ECDC24-EB54-02DA-C25F-480001788411</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pac_apellido" id="64357484-25E8-1E26-B277-B09B6396D395">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>A3776317-1275-0343-5384-7E55AD1F1583</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pac_fechaNacimiento" id="9B2BAF05-3A01-E92F-B11D-745D5124B5DA">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>70F2EC02-EA22-E8F0-70BF-25DF083E9A84</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pac_correo" id="37923DE7-ACEA-1A6B-B481-89DC02C770BF">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>8F0DF524-A2C3-C402-CA7F-3012B5898C39</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pac_telefono" id="27A04421-0C4F-B601-7A90-DA8CB9C05450">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>258E0589-260A-C807-7D01-E1D64C0CC880</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pac_direccion" id="F54D448D-CADF-1AAA-611B-C46B22817FE7">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>8CB39EBB-F20E-1EC8-4BC2-25ED71C637CA</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pac_contrasenia" id="D1A00F85-5D34-EA29-E747-95A0F3BABA71">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>FB619A3A-38DE-12F3-59D5-850137CBF6F8</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D88D85F5-2285-2229-8E8F-2F562EE68D24" name="HCI_PACIENTES_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>81A257E9-305A-6EB1-BD0D-BBD26F1919BE</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D746FCBB-A7DF-FF22-1EE9-87B9752D9FDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

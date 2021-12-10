@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="563BC6E2-31A5-D5D6-5968-46EC53F903DC" name="HCM_ESPECIALIDADES">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>0FDF969E-3BB8-9659-C65C-F634C36997A7</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="esp_codigo" id="C370CF2E-7D48-F8DD-A64C-74C2C4F5F0E5">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>F51367CA-E94C-4C3B-94A2-EB3E1714D404</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="esp_nombre" id="F66D9D2B-F6F3-6356-5E45-60AD644C804B">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>775FFCC6-D221-0003-5684-5C078BC1F1D5</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HCM_MEDICOS_med_cedula" id="676D9DF5-2645-7794-507A-319C9E9441F2">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>1602ECAD-B7D3-1A2F-7D20-D84F27C3146C</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68AE2B00-8331-CC05-F35F-72BAD655296A" referredColumn="86E714DF-8998-A571-DC96-8D255CA67C08"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D0A56C1-92BC-A6D7-CF84-78C50A1B2DD3" name="HCM_ESPECIALIDADES_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>78B1BC6B-A66E-07BC-862D-3420CDBE24B2</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C370CF2E-7D48-F8DD-A64C-74C2C4F5F0E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27D8CF8C-18E9-328B-161E-CB0EF86966C2" name="HCM_ESPECIALIDADES_HCM_MEDICOS_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>727C2575-2EF7-DD34-A178-10F14D9E00A9</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="676D9DF5-2645-7794-507A-319C9E9441F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35DE4C44-61F0-7DD0-0F46-533221FB7E54" name="HCM_CITAS">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>384DD810-3D32-7A14-DEBB-C78FAA13C6F3</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cit_codigo" id="9A5FDBEA-B9E9-4CC0-3DE8-5D18A8228622">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>E6DD65DD-37C5-EFC3-40B8-6C019C5E97D1</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cit_DescripcionCita" id="E8CC2F58-6FB7-A1F3-113B-5E80B47BCC9A">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>3B5A60B9-D3FA-161E-EF78-DAF8E889BE75</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HCI_PACIENTES_pac_cedula" id="80A4CAD1-90E7-4B1F-C7AC-F117C9B926CC">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>8CB84783-0931-6C60-A4FF-EAB468B80577</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37AAA936-7944-DF89-51FB-09C35C495506" referredColumn="D746FCBB-A7DF-FF22-1EE9-87B9752D9FDA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5B2F5FE-7B11-B9B6-43DF-9E29E688BD31" name="HCM_CITAS_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>03001BF4-D3C6-5742-2E99-2BB75925E3C9</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A5FDBEA-B9E9-4CC0-3DE8-5D18A8228622"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FEBD94B-44A3-796E-7B9C-4F628BCE441D" name="HCM_CITAS_HCI_PACIENTES_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>AA06A9A8-C057-051C-56CB-4BD72ABF69C6</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80A4CAD1-90E7-4B1F-C7AC-F117C9B926CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

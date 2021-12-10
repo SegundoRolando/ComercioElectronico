@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="43993FF4-3147-DC9B-C417-B25EE2EFD3EE" containerWithKeyObject="0FD4FF7B-BF2C-4AE5-633B-045D1BFE398A" localFKIndex="1E8C9624-72F6-EDEB-DA97-48495AEB21DE" name="HCM_FACTURADETALLES_HCM_FACTURAS_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:28:26 UTC</createdTime>
+<generatorID>E3DD0FEE-FA4F-F3A4-FCF3-B9972F9EA25D</generatorID>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<referredTableLongName>HCM_FACTURAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>12380898-348C-EC56-283D-B73B4A9FE65C</referredTableID>
+<keyObject>00DE0B48-D98E-A945-AFC4-3F620022EC62</keyObject>
+<referredKeyID>00DE0B48-D98E-A945-AFC4-3F620022EC62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>fca_codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

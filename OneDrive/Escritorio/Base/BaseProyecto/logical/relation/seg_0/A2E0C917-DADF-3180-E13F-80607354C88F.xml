@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="medicos_historiales" directorySegmentName="seg_0" id="A2E0C917-DADF-3180-E13F-80607354C88F">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-10 00:22:19 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<engineerTo>
+<item key="D75B7AD0-91D3-33F9-1058-F07F2D531DF0" value="true"/>
+</engineerTo>
+<sourcePk>12E426B7-6557-0F83-383E-441101BAD1C6</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Pertenecen</nameOnSource>
+<nameOnTarget>Tienes</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BF3094D7-FD83-C7BA-4DEC-AB19AC12D284</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F933907D-7CF0-C7EB-F670-5E10806A8481</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

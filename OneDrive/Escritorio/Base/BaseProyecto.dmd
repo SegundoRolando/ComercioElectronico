@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BaseProyecto" id="3B9574FE-DA11-3020-EF38-E4EBA607AD6E" version="3.5">
+<createdBy>ASUS</createdBy>
+<createdTime>2021-12-09 22:22:22 UTC</createdTime>
+<ownerDesignName>BaseProyecto</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3B9574FE-DA11-3020-EF38-E4EBA607AD6E</designId>
+</OSDM_Design>
